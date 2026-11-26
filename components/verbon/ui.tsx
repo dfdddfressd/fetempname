@@ -4,18 +4,9 @@ import type { ReactNode } from "react";
 import type { Flag } from "@/lib/verbon/types";
 
 export function Logo() {
-  return (
-    <span className="vb-logo" aria-label="verbon">
-      <svg viewBox="0 0 32 32" aria-hidden="true">
-        <g fill="none" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M3 6 L16 28 L29 6" stroke="#6B8F4E" />
-          <path d="M9 6 L16 18 L23 6" stroke="#B5CBA6" />
-          <path d="M13.5 6 L16 10.5 L18.5 6" stroke="#D9B25F" />
-        </g>
-      </svg>
-      <span aria-hidden="true">verbon</span>
-    </span>
-  );
+  // public/verbon-logo.png is 588 x 187 (cream wordmark, green leaf, transparent).
+  // eslint-disable-next-line @next/next/no-img-element
+  return <img className="vb-logo" src="/verbon-logo.png" alt="Verbon" width={110} height={35} />;
 }
 
 export function SampleTag() {
