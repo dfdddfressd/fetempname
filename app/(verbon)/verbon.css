@@ -47,8 +47,7 @@ button:disabled { cursor: not-allowed; }
   border-bottom: 1px solid var(--line);
 }
 .vb-top-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0 6px; }
-.vb-logo { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; font-size: 1.35rem; letter-spacing: -0.02em; }
-.vb-logo svg { width: 30px; height: 30px; }
+.vb-logo { display: block; width: 110px; height: auto; }
 .vb-project { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; padding-bottom: 8px; font-size: 0.9rem; color: var(--muted); }
 .vb-project strong { color: var(--cream); font-weight: 500; }
 
